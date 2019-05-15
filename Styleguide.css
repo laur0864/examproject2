@@ -1,0 +1,104 @@
+.overskrift {
+    font-family: 'signika', sans-serif;
+    text-align: center;
+}
+
+.hr {
+  width: 100%;
+  float:right;
+}
+
+.undertitel {
+    font-family: 'signika', sans-serif;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.billedelogo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-bottom: 40px; 
+}
+
+
+
+.navi1 {
+    height: 70px;
+    width: 70px;
+    
+}
+
+.navi2 {
+    height: 70px;
+    width: 70px;    
+}
+
+.font {
+    font-family: 'signika', sans-serif;
+    text-align: center;
+}
+
+.dot1 {
+  height: 50px;
+  width: 50px;
+  background-color: #915ba1;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dot2 {
+  height: 50px;
+  width: 50px;
+  background-color: #e8e9e8;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dot3 {
+  height: 50px;
+  width: 50px;
+  background-color: #b2b1b1;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dot4 {
+  height: 50px;
+  width: 50px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  display: inline-block;
+  border: 1px solid black;
+}
+
+.dot5 {
+  height: 50px;
+  width: 50px;
+  background-color: #000000;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dot6 {
+  height: 50px;
+  width: 50px;
+  background-color: #56af31;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dot7 {
+  height: 50px;
+  width: 50px;
+  background-color: #e62d2b;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+
+
+
+
+
