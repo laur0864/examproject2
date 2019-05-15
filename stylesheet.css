@@ -1,42 +1,66 @@
 
 @font-face {
     font-family: 'Exo-2';
-    src: url('Exo2-Bold.otf') format('woff'),
+    src: url('Exo2-Bold.otf') format('woff');
+    font-weight: normal;
     font-style: normal;
 
-    font-family: 'Exo-2 Light';
-    src: url('Exo2-Light.otf') format('woff');
+    font-family: 'Exo-2';
+    src: url('Exo2-Bold.otf') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
+a:link {
+    text-decoration: none;
+    color: #000000;
+  }
+  
+  a:hover {
+    color: #8e8f91;
+    font-weight: 500;
+    text-decoration: underline;
+  
+  }
+  
+  a:visited {
+    color: #000000;
+  }
+
 .header {
-    margin: 20px;
-    height: 60px;
+    font-family: "Exo-2";
+    text-align: right;
+    font-size: 30px;
+    word-spacing: 50px;
     width: auto;
+    margin-right: 150px;
+    margin-top: 20px;
+    height: 70px;
+
+    
 }
 
 .logo {
-    position: center;
+    float: left;
+    align-content: left;
+    margin-left: 80px;
     height: 50px;
     width: auto;
 }
 
 .nav {
 color: #ffffff;
-background-color: #0d8cc4;
-height: 60px;
-
+background-color: #d1d3d6;
+height: 450px;
+text-align: center;
+border: groove #000000;
+border-width: 1px;
 }
 
 .main {
-    font-family: Exo-2 Light;
+    font-family: "Exo-2";
 }
 
 .test1 {
-    font-family: Exo-2 Bold;
-}
-
-.test2 {
-    font-family: Exo-2 Light;
+    font-family: "Exo-2";
 }
