@@ -1,5 +1,5 @@
 .overskrift {
-    font-family: 'signika', sans-serif;
+    font-family: 'exo 2';
     text-align: center;
 }
 
@@ -9,7 +9,7 @@
 }
 
 .undertitel {
-    font-family: 'signika', sans-serif;
+    font-family: "Lato";
     text-align: center;
     margin-top: 40px;
 }
@@ -36,7 +36,7 @@
 }
 
 .font {
-    font-family: 'Lato';
+    font-family: "Lato";
     font-size: 22px;
     text-align: center;
 }
@@ -67,13 +67,14 @@
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     display: block;
+    
 }
 
 .tekst{
-    font-family: 'Lato';
-    font-size: 22px;
+    font-family: "Lato";
+    font-size: 24px;
     text-align: center;
     
 }
