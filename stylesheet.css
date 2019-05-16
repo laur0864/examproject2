@@ -132,3 +132,156 @@ text-align: center;
         transform: translate(-50%, -50%);
         text-align: center;
       }
+
+
+
+
+
+
+
+
+
+footer {
+ background-color:lightgray;
+    width;100%;
+    margin-top:30px;
+   
+   
+        height: 120px;
+    }
+
+.p1 {
+    margin-top: 10px;
+    margin-left: 30px; 
+    font-family:"Exo-2";
+    color:skyblue;
+    font-size: 20px;
+    position:absolute;
+}
+.p2 {
+    margin-top: 40px;
+    margin-left: 30px; 
+    font-family: 'Exo-2 Semi Bold';
+    color: white;
+    font-size: 15px;
+    position:absolute;
+}
+
+.p3 {
+  margin-top: 60px;
+    margin-left: 30px; 
+    font-family: 'Exo-2 Semi Bold';
+    color: white;
+    font-size: 15px;
+    position:absolute;
+}
+.p4 {
+    margin-top: 80px;
+    margin-left: 30px; 
+    font-family: 'Exo-2 Semi Bold';
+    color: white;
+    font-size: 15px;
+    position:absolute;
+}
+
+.q1 {
+    margin-top: 10px;
+    margin-left: 280px; 
+    font-family:"Exo-2";
+    color:skyblue;
+    font-size: 20px;
+    position:absolute;
+}
+.q2 {
+    margin-top: 40px;
+    margin-left: 280px; 
+    font-family: 'Exo-2 Semi Bold';
+    color: white;
+    font-size: 15px;
+    position:absolute;
+}
+
+.q3 {
+  margin-top: 60px;
+    margin-left: 280px; 
+    font-family: 'Exo-2 Semi Bold';
+    color: white;
+    font-size: 15px;
+    position:absolute;
+}
+.q4 {
+    margin-top: 80px;
+    margin-left: 280px; 
+    font-family: 'Exo-2 Semi Bold';
+    color: white;
+    font-size: 15px;
+    position:absolute;
+}
+
+.r1 {
+    margin-top: 10px;
+    margin-left: 530px; 
+    font-family:"Exo-2";
+    color:skyblue;
+    font-size: 20px;
+    position:absolute;
+}
+.r2 {
+    margin-top: 40px;
+    margin-left: 530px; 
+    font-family: 'Exo-2 Semi Bold';
+    color: white;
+    font-size: 15px;
+    position:absolute;
+}
+
+.r3 {
+  margin-top: 60px;
+    margin-left: 530px; 
+    font-family: 'Exo-2 Semi Bold';
+    color: white;
+    font-size: 15px;
+    position:absolute;
+}
+.r4 {
+    margin-top: 80px;
+    margin-left: 530px; 
+    font-family: 'Exo-2 Semi Bold';
+    color: white;
+    font-size: 15px;
+    position:absolute;
+}
+
+.s1 {
+    margin-top: 10px;
+    margin-left: 780px; 
+    font-family:"Exo-2";
+    color:skyblue;
+    font-size: 20px;
+    position:absolute;
+}
+.s2 {
+    margin-top: 40px;
+    margin-left: 780px; 
+    font-family: 'Exo-2 Semi Bold';
+    color: white;
+    font-size: 15px;
+    position:absolute;
+}
+
+.s3 {
+  margin-top: 60px;
+    margin-left: 780px; 
+    font-family: 'Exo-2 Semi Bold';
+    color: white;
+    font-size: 15px;
+    position:absolute;
+}
+.s4 {
+    margin-top: 80px;
+    margin-left: 780px; 
+    font-family: 'Exo-2 Semi Bold';
+    color: white;
+    font-size: 15px;
+    position:absolute;
+}
