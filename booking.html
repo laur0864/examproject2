@@ -21,7 +21,7 @@
           </main>
     </div>
     <div class="container">
-  <form action="/action_page.php">
+  <form action="">
     <label for="fname">Navn eller institution</label>
     <input type="text" id="name" name="name" placeholder="Skriv dit navn eller instiltution..">
 
@@ -31,9 +31,8 @@
     <label for="lname">Telfon nr.</label>
     <input type="text" id="telfon" name="telfon" placeholder="Skrive dit tlefon nr...">
       
-    <label for="lname">Antal sovepladser</label>
-    <input type="text" id="antalsovepladser" name="antalsovepladser" placeholder="Skrive antal sovepladser..">
-
+    <label for="numb">Antal sovepladser</label>
+    <input type="text" id="numb" name="antalsovepladser" placeholder="Skrive antal sovepladser..">   <p id="demo"></p>
     <label for="country">Ønsker du et af vores pakke-tilbud</label>
     <select id="country" name="Tilvalg">
       <option value="3dages">Ja, jeg øsker den 3 dages ungdomslejr</option>
@@ -45,8 +44,28 @@
     <textarea id="subject" name="kommentar" placeholder="kommentar.." style="height:200px"></textarea>
 
     <input type="submit" value="Send forspørgsel" onclick="myFunction()">
+    <button type="button" onclick="myFunction()">Submit</button>
   </form>
 </div>
+
+<script>
+  function myFunction() {
+    var x, text;
+  
+    // Get the value of the input field with id="numb"
+    x = document.getElementById("numb").value;
+  
+    // If x is Not a Number or less than one or greater than 10
+    if (isNaN(x) || x < 1 || x > 10) {
+      text = "Input not valid";
+    } else {
+      text = "Input OK";
+    }
+    document.getElementById("demo").innerHTML = text;
+  }
+  </script>
+
+
 
 </body>
 </html>
