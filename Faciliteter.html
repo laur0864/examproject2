@@ -20,18 +20,78 @@
 <p class=introtext>Hos blaavandshuk sportspark tilbyder vi adskillige faciliteter. Her giver vi en liste over vores aktiviteter:<br></p>
       </main>
       
-<p>
- - Fri badeland<br>
- - Wellness faciliteter<br>
- - Svømmehal i off. åbning<br>
- - 9 hullers par golfbaner<br>
- - Golfudslagsbane ex. bolde<br>
- - Fri fitness I oksbøl.<br>
- - Sports haller<br>
- - Springscenter<br> 
- - Løberuter i skoven ved oksbøl.<br>
- - Esport 
-</p>          
+
+ <button class="accordion">Fri badeland</button>
+<div class="panel">
+  <p>Lorem ipsum...</p>
+</div>
+
+<button class="accordion">Wellness faciliteter</button>
+<div class="panel">
+  <p>Lorem ipsum...</p>
+</div>
+
+<button class="accordion">Svømmehal i off. åbning</button>
+<div class="panel">
+  <p>Lorem ipsum...</p>
+</div>
+
+<button class="accordion">9 hullers par golfbaner</button>
+<div class="panel">
+  <p>Lorem ipsum...</p>
+</div>
+
+
+<button class="accordion">Golfudslagsbane ex. bolde</button>
+<div class="panel">
+  <p>Lorem ipsum...</p>
+</div>
+ 
+ 
+<button class="accordion">Fri fitness I oksbøl</button>
+<div class="panel">
+  <p>Lorem ipsum...</p>
+</div>
+ 
+ 
+<button class="accordion">Sports haller</button>
+<div class="panel">
+  <p>Lorem ipsum...</p>
+</div>
+ 
+ 
+<button class="accordion">Springscenter</button>
+<div class="panel">
+  <p>Lorem ipsum...</p>
+</div>
+ 
+<button class="accordion">Løberuter i skoven ved oksbøl</button>
+<div class="panel">
+  <p>Lorem ipsum...</p>
+</div>
+
+<button class="accordion">Esport</button>
+<div class="panel">
+  <p>Lorem ipsum...</p>
+</div>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+
              
        
 
