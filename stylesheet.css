@@ -1,65 +1,75 @@
 
+/* CSS af Lasse, Laurids og Ottilia / UCL Multimediedesign B (2019) */
+
+/****************************************************************
+*                              LINKS & FONTS                    *
+****************************************************************/
+
+
 @font-face {
-    font-family: 'Exo-2';
-    src: url(Exo2-Bold.otf);
-    font-weight: bold;
+  font-family: 'Exo-2';
+  src: url(Exo2-Bold.otf);
+  font-weight: bold;
 }
 
 @font-face {
-    font-family: 'Exo-2 Semi Bold';
-    src: url(Exo2-SemiBold.otf);
-    font-weight: normal;
+  font-family: 'Exo-2 Semi Bold';
+  src: url(Exo2-SemiBold.otf);
+  font-weight: normal;
 }
 
 @font-face {
-    font-family: 'Exo-2 Light';
-    src: url(Exo2-Light.otf);
-    font-weight: normal;
+  font-family: 'Exo-2 Light';
+  src: url(Exo2-Light.otf);
+  font-weight: normal;
 }
 
 @font-face {
-    font-family: 'Lato Light';
-    src: url(Lato-Light.ttf);
-    font-weight: bold;
+  font-family: 'Lato Light';
+  src: url(Lato-Light.ttf);
+  font-weight: bold;
 }
-
 
 
 a:link {
-    text-decoration: none;
-    color: #000000;
-  }
-  
-  a:hover {
-    color: #8e8f91;
-    font-weight: 500;
-    text-decoration: underline;
-  
-  }
-  
-  a:visited {
-    color: #000000;
-  }
+  text-decoration: none;
+  color: #000000;
+}
+
+a:hover {
+  color: #8e8f91;
+  font-weight: 500;
+  text-decoration: underline;
+
+}
+
+a:visited {
+  color: #000000;
+}
+
+/****************************************************************
+*                    FRONTPAGE LEJRSKOLE                        *
+****************************************************************/
 
 .header {
-    font-family: "Exo-2";
-    text-align: right;
-    font-size: 30px;
-    word-spacing: 50px;
-    width: auto;
-    margin-right: 150px;
-    margin-top: 20px;
-    height: 70px;
+  font-family: "Exo-2";
+  text-align: right;
+  font-size: 30px;
+  word-spacing: 50px;
+  width: auto;
+  margin-right: 150px;
+  margin-top: 20px;
+  height: 70px;
 
-    
+  
 }
 
 .logo {
-    float: left;
-    align-content: left;
-    margin-left: 80px;
-    height: 50px;
-    width: auto;
+  float: left;
+  align-content: left;
+  margin-left: 80px;
+  height: 50px;
+  width: auto;
 }
 
 .nav {
@@ -72,9 +82,9 @@ border-width: 1px;
 }
 
 .overskrift {
-    margin-top: 20px;
-    font-family:"Exo-2";
-    font-size: 48px;
+  margin-top: 20px;
+  font-family:"Exo-2";
+  font-size: 48px;
 }
 
 .introtext {
@@ -87,204 +97,193 @@ margin-right: auto;
 }     
 
 .main {
-    font-family: "Lato Light";
-    text-align: center;
-    font-size: 16px;
-    
+  font-family: "Lato Light";
+  text-align: center;
+  font-size: 16px;
+  
 }
 
 
- 
-    .container {
-        position: relative;
-        width: 50%;
-        float: left;
-      }
-      
-      .image {
-        display: block;
-        height: 500px;
-        max-width: 800px; 
-      }
-      
-      .overlay {
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        height: 500px;
-        max-width: 800px; 
-        opacity: 0;
-        transition: .5s ease;
-        background-color: #008CBA;
-      }
-      
-      .container:hover .overlay {
-        opacity: 0.9;
-      }
-      
-      .text {
-        color: white;
-        font-size: 20px;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        -webkit-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
-        text-align: center;
-      }
 
+.billedboks {
+  position: relative;
+  width: 50%;
+  float: left;
+  }
 
-
-
-
-
+ .image {
+ display: block;
+ width: 100%;
+ }
+    
+ .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #0d8cc4;
+  }
+    
+  .billedboks:hover .overlay {
+    opacity: 0.85;
+    }
+    
+  .text {
+    font-family: "Exo-2";
+    color: white;
+    font-size:5vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    }
 
 
 
 footer {
- background-color:lightgray;
-    width;100%;
-    margin-top:30px;
-   
-   
-        height: 120px;
-    }
+background-color:lightgray;
+  width: 100%;
+  margin-top:30px;
+  height: 120px;
+  }
 
 .p1 {
-    margin-top: 10px;
-    margin-left: 30px; 
-    font-family:"Exo-2";
-    color:skyblue;
-    font-size: 20px;
-    position:absolute;
+  margin-top: 10px;
+  margin-left: 30px; 
+  font-family:"Exo-2";
+  color:skyblue;
+  font-size: 20px;
+  position:absolute;
 }
 .p2 {
-    margin-top: 40px;
-    margin-left: 30px; 
-    font-family: 'Exo-2 Semi Bold';
-    color: white;
-    font-size: 15px;
-    position:absolute;
+  margin-top: 40px;
+  margin-left: 30px; 
+  font-family: 'Exo-2 Semi Bold';
+  color: white;
+  font-size: 15px;
+  position:absolute;
 }
 
 .p3 {
-  margin-top: 60px;
-    margin-left: 30px; 
-    font-family: 'Exo-2 Semi Bold';
-    color: white;
-    font-size: 15px;
-    position:absolute;
+margin-top: 60px;
+  margin-left: 30px; 
+  font-family: 'Exo-2 Semi Bold';
+  color: white;
+  font-size: 15px;
+  position:absolute;
 }
 .p4 {
-    margin-top: 80px;
-    margin-left: 30px; 
-    font-family: 'Exo-2 Semi Bold';
-    color: white;
-    font-size: 15px;
-    position:absolute;
+  margin-top: 80px;
+  margin-left: 30px; 
+  font-family: 'Exo-2 Semi Bold';
+  color: white;
+  font-size: 15px;
+  position:absolute;
 }
 
 .q1 {
-    margin-top: 10px;
-    margin-left: 280px; 
-    font-family:"Exo-2";
-    color:skyblue;
-    font-size: 20px;
-    position:absolute;
+  margin-top: 10px;
+  margin-left: 280px; 
+  font-family:"Exo-2";
+  color:skyblue;
+  font-size: 20px;
+  position:absolute;
 }
 .q2 {
-    margin-top: 40px;
-    margin-left: 280px; 
-    font-family: 'Exo-2 Semi Bold';
-    color: white;
-    font-size: 15px;
-    position:absolute;
+  margin-top: 40px;
+  margin-left: 280px; 
+  font-family: 'Exo-2 Semi Bold';
+  color: white;
+  font-size: 15px;
+  position:absolute;
 }
 
 .q3 {
-  margin-top: 60px;
-    margin-left: 280px; 
-    font-family: 'Exo-2 Semi Bold';
-    color: white;
-    font-size: 15px;
-    position:absolute;
+margin-top: 60px;
+  margin-left: 280px; 
+  font-family: 'Exo-2 Semi Bold';
+  color: white;
+  font-size: 15px;
+  position:absolute;
 }
 .q4 {
-    margin-top: 80px;
-    margin-left: 280px; 
-    font-family: 'Exo-2 Semi Bold';
-    color: white;
-    font-size: 15px;
-    position:absolute;
+  margin-top: 80px;
+  margin-left: 280px; 
+  font-family: 'Exo-2 Semi Bold';
+  color: white;
+  font-size: 15px;
+  position:absolute;
 }
 
 .r1 {
-    margin-top: 10px;
-    margin-left: 530px; 
-    font-family:"Exo-2";
-    color:skyblue;
-    font-size: 20px;
-    position:absolute;
+  margin-top: 10px;
+  margin-left: 530px; 
+  font-family:"Exo-2";
+  color:skyblue;
+  font-size: 20px;
+  position:absolute;
 }
 .r2 {
-    margin-top: 40px;
-    margin-left: 530px; 
-    font-family: 'Exo-2 Semi Bold';
-    color: white;
-    font-size: 15px;
-    position:absolute;
+  margin-top: 40px;
+  margin-left: 530px; 
+  font-family: 'Exo-2 Semi Bold';
+  color: white;
+  font-size: 15px;
+  position:absolute;
 }
 
 .r3 {
-  margin-top: 60px;
-    margin-left: 530px; 
-    font-family: 'Exo-2 Semi Bold';
-    color: white;
-    font-size: 15px;
-    position:absolute;
+margin-top: 60px;
+  margin-left: 530px; 
+  font-family: 'Exo-2 Semi Bold';
+  color: white;
+  font-size: 15px;
+  position:absolute;
 }
 .r4 {
-    margin-top: 80px;
-    margin-left: 530px; 
-    font-family: 'Exo-2 Semi Bold';
-    color: white;
-    font-size: 15px;
-    position:absolute;
+  margin-top: 80px;
+  margin-left: 530px; 
+  font-family: 'Exo-2 Semi Bold';
+  color: white;
+  font-size: 15px;
+  position:absolute;
 }
 
 .s1 {
-    margin-top: 10px;
-    margin-left: 780px; 
-    font-family:"Exo-2";
-    color:skyblue;
-    font-size: 20px;
-    position:absolute;
+  margin-top: 10px;
+  margin-left: 780px; 
+  font-family:"Exo-2";
+  color:skyblue;
+  font-size: 20px;
+  position:absolute;
 }
 .s2 {
-    margin-top: 40px;
-    margin-left: 780px; 
-    font-family: 'Exo-2 Semi Bold';
-    color: white;
-    font-size: 15px;
-    position:absolute;
+  margin-top: 40px;
+  margin-left: 780px; 
+  font-family: 'Exo-2 Semi Bold';
+  color: white;
+  font-size: 15px;
+  position:absolute;
 }
 
 .s3 {
-  margin-top: 60px;
-    margin-left: 780px; 
-    font-family: 'Exo-2 Semi Bold';
-    color: white;
-    font-size: 15px;
-    position:absolute;
+margin-top: 60px;
+  margin-left: 780px; 
+  font-family: 'Exo-2 Semi Bold';
+  color: white;
+  font-size: 15px;
+  position:absolute;
 }
 .s4 {
-    margin-top: 80px;
-    margin-left: 780px; 
-    font-family: 'Exo-2 Semi Bold';
-    color: white;
-    font-size: 15px;
-    position:absolute;
+  margin-top: 80px;
+  margin-left: 780px; 
+  font-family: 'Exo-2 Semi Bold';
+  color: white;
+  font-size: 15px;
+  position:absolute;
 }
