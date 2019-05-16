@@ -6,7 +6,7 @@ function myFunction() {
 
   // If x is Not a Number or less than one or greater than 10
   if (isNaN(x) || x < 1 || x > 48) {
-    text = "Input not valid";
+    text = "Vi har deværre kun 48 sovepladser";
   } else {
     text = "Input OK";
   }

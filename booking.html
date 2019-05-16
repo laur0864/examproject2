@@ -33,6 +33,7 @@
       
     <label for="numb">Antal sovepladser</label>
     <input type="text" id="numb" name="antalsovepladser" placeholder="Skrive antal sovepladser..">   <p id="demo"></p>
+      
     <label for="country">Ønsker du et af vores pakke-tilbud</label>
     <select id="country" name="Tilvalg">
       <option value="3dages">Ja, jeg øsker den 3 dages ungdomslejr</option>
@@ -56,10 +57,10 @@
     x = document.getElementById("numb").value;
   
     // If x is Not a Number or less than one or greater than 10
-    if (isNaN(x) || x < 1 || x > 10) {
-      text = "Input not valid";
+    if (isNaN(x) || x < 1 || x > 48) {
+      text = "Vi har desværre kun 48 soverpladser";
     } else {
-      text = "Input OK";
+      text = "";
     }
     document.getElementById("demo").innerHTML = text;
   }
