@@ -105,13 +105,10 @@ margin-right: auto;
 
 .imgbanner {
     height: 350px;
+    width: 100%;
+    text-align: center;
 }
 
-@media screen and (max-width: 600px) screen and (max-height: auto) {
-    .imgbanner {
-        height: 50px
-    }
-}
 
 .billedboks {
   position: relative;
