@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="DK">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="stylesheet.css">
+        <script type="javascript" src="java.js"></script>
+        <title>Lejrskole</title>
+    </head>
+<body>
+     <a href="https://sportspark.dk/"><img class="logo" src="spb-logo.svg" alt="Sportspark Blåvandshuk Logo"></a>
+  <header class="header">
+     <a href="">Booking</a>
+     <a href="">Priser </a> 
+    </header>
+
+    <div class="hyttefoto">
+                <img src="Billeder/152.jpeg" alt="hyttefoto" style="width:100%; height: 350px">
+          <main class="main">
+              <div class="overskrift">Booking</div>
+                Her ar du muliged for at sende en forspørgsel, vi svare inden for en dag.
+          </main>
+    </div>
+    <div class="container">
+  <form action="">
+    <label for="fname">Navn eller institution</label>
+    <input type="text" id="name" name="name" placeholder="Skriv dit navn eller instiltution..">
+
+    <label for="lname">Email</label>
+    <input type="text" id="email" name="email" placeholder="Skriv din Email..">
+      
+    <label for="lname">Telfon nr.</label>
+    <input type="text" id="telfon" name="telfon" placeholder="Skrive dit tlefon nr...">
+      
+    <label for="numb">Antal sovepladser</label>
+    <input type="text" id="numb" name="antalsovepladser" placeholder="Skrive antal sovepladser..">   <p id="demo"></p>
+      
+    <label for="country">Ønsker du et af vores pakke-tilbud</label>
+    <select id="country" name="Tilvalg">
+      <option value="3dages">Ja, jeg øsker den 3 dages ungdomslejr</option>
+      <option value="5dages">Ja, jeg ønsker den 5 dages lejr</option>
+      <option value="nej">Nej</option>
+    </select>
+
+    <label for="subject">Andre kommentarer</label>
+    <textarea id="subject" name="kommentar" placeholder="kommentar.." style="height:200px"></textarea>
+
+    <input type="submit" value="Send forspørgsel" onclick="myFunction()">
+    <button type="button" onclick="myFunction()">Submit</button>
+  </form>
+</div>
+
+<script>
+  function myFunction() {
+    var x, text;
+  
+    // Get the value of the input field with id="numb"
+    x = document.getElementById("numb").value;
+  
+    // If x is Not a Number or less than one or greater than 10
+    if (isNaN(x) || x < 1 || x > 48) {
+      text = "Vi har desværre kun 48 soverpladser";
+    } else {
+      text = "";
+    }
+    document.getElementById("demo").innerHTML = text;
+  }
+  </script>
+
+
+
+</body>
+</html>
+
+
+             <footer>
+                 <div class="footer">
+                <p class="p1">Sportscenter (HQ)</p>
+                <p class="p2">Strandvejen 2, 6840 Oksbøl</p>
+                <p class="p3">Tlf. 70 22 16 53 - tast 1</p>
+                <p class="p4">info@sportspark</p>
+
+                <p class="q1">Golfcenter i Ho</p>
+                <p class="q2">Søndertoften 29, 6857 Blåvand</p>
+                <p class="q3">Tlf. 70 22 16 53 - tast 2</p>
+                <p class="q4">info@sportspark</p>
+                     
+                <p class="r1">FitnessCenter Blaavand</p>
+                <p class="r2">Strandvejen 2, 6840 Oksbøl</p>
+                <p class="r3">Tlf. 70 22 16 53 - tast 1+2</p>
+                <p class="r4">info@sportspark</p>
+                     
+                <p class="s1">FitnessCenter Vejers</p>
+                <p class="s2">Vejers Havvej 58b, 6853 Vejers</p>
+                <p class="s3">Tlf. 70 22 16 53 - tast 1+2</p>
+                <p class="s4">info@sportspark</p>
+
+                     
+                     </div>
+             
+             
+             </footer>
+</body>
+</html>
