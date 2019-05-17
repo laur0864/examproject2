@@ -101,7 +101,17 @@ margin-right: auto;
   
 }
 
+/* banner photos */
 
+.imgbanner {
+    height: 350px;
+}
+
+@media screen and (max-width: 600px) {
+    .imgbanner {
+        height: 50px
+    }
+}
 
 .billedboks {
   position: relative;
