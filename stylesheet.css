@@ -30,6 +30,9 @@
   font-weight: bold;
 }
 
+a {
+  display: block;
+}
 
 a:link {
   text-decoration: none;
@@ -70,14 +73,20 @@ a:visited {
   width: auto;
 }
 
-.nav {
+.videosegment {
 color: #ffffff;
-background-color: #d1d3d6;
-height: 450px;
+cursor:pointer;
+background-color: #f7f7f7;
 text-align: center;
-border: groove #000000;
 border-width: 1px;
+position:relative;
+
 }
+
+.video {
+  margin-top: 10px;
+}
+
 
 .overskrift {
   margin-top: 20px;
@@ -105,10 +114,13 @@ margin-right: auto;
 
 .imgbanner {
     height: 350px;
-    width: 100%;
-    text-align: center;
 }
 
+@media screen and (max-width: 600px) {
+    .imgbanner {
+        height: 50px
+    }
+}
 
 .billedboks {
   position: relative;
@@ -150,7 +162,7 @@ margin-right: auto;
 
 
 /****************************************************************
-*                   footer                        *
+*                            footer                             *
 ****************************************************************/
 
 footer {
@@ -299,7 +311,7 @@ margin-top: 60px;
 
 
 /****************************************************************
-*                   Booking formular                        *
+*                   Booking formular                            *
 ****************************************************************/
 
 
@@ -315,7 +327,7 @@ input[type=text], select, textarea {
   resize: vertical;
 }
 
-.button {
+input[type=submit] {
   background-color:lightblue;
   color: white;
   padding: 12px 20px;
@@ -324,7 +336,7 @@ input[type=text], select, textarea {
   cursor: pointer;
 }
 
-.button:hover {
+input[type=submit]:hover {
   background-color:skyblue;
 }
 

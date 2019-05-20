@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="DK">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="stylesheet.css">
+        <script type="text/javascript" src="StormAppJava.js"></script>
+        <title>Lejrskole</title> 
+                <meta name="viewport" content="width=device-width", initial-scale="1.0"> 
+<body>
+     <a href="index.html"><img class="logo" src="spb-logo.svg" alt="Sportspark Blåvandshuk Logo"></a>
+  <header class="header">
+     <a href="booking.html">Booking</a>
+     <a href="priser.html">Priser </a> 
+    </header>
+
+     <img src="Billeder/Mulighederinaeromraadet.png" class="imgbanner" alt="faciliteter">
+         
+          <main class="main">
+              <div class="overskrift">Lejskole</div>
+              
+<p class=introtext>Hos blaavandshuk sportspark tilbyder vi adskillige faciliteter. Her giver vi en liste over vores aktiviteter:<br></p>
+      </main>
+      
+
+ <button class="accordion">Fri badeland</button>
+<div class="panel">
+  <p>Hos Sportspark Blaavandshuk, er der mulighed for at besøge vores badeland.</p>
+</div>
+
+<button class="accordion">Wellness faciliteter</button>
+<div class="panel">
+  <p>Lorem ipsum...</p>
+</div>
+
+<button class="accordion">Svømmehal i off. åbning</button>
+<div class="panel">
+  <p>Lorem ipsum...</p>
+</div>
+
+<button class="accordion">9 hullers par golfbaner</button>
+<div class="panel">
+  <p>Lorem ipsum...</p>
+</div>
+
+
+<button class="accordion">Golfudslagsbane ex. bolde</button>
+<div class="panel">
+  <p>Lorem ipsum...</p>
+</div>
+ 
+ 
+<button class="accordion">Fri fitness I oksbøl</button>
+<div class="panel">
+  <p>Lorem ipsum...</p>
+</div>
+ 
+ 
+<button class="accordion">Sports haller</button>
+<div class="panel">
+  <p>Lorem ipsum...</p>
+</div>
+ 
+ 
+<button class="accordion">Springscenter</button>
+<div class="panel">
+  <p>Lorem ipsum...</p>
+</div>
+ 
+<button class="accordion">Løberuter i skoven ved oksbøl</button>
+<div class="panel">
+  <p>Lorem ipsum...</p>
+</div>
+
+<button class="accordion">Esport</button>
+<div class="panel">
+  <p>Lorem ipsum...</p>
+</div>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+
+             
+       
+
+             <footer>
+              Kontakt os her
+             </footer>
+</body>
+</html>
