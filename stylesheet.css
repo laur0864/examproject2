@@ -118,10 +118,11 @@ margin-right: auto;
 
 @media screen and (max-width: 600px) {
     .imgbanner {
-        height: 50px
+        height: 250px
     }
 }
 
+/* index billeder */
 .billedboks {
   position: relative;
   width: 50%;
@@ -180,6 +181,7 @@ footer {
   color:skyblue;
   font-size: 20px;
   position:absolute;
+    text-align: center;
 }
 .p2 {
   margin-top: 40px;
@@ -374,3 +376,43 @@ input[type=submit]:hover {
   display: none;
   overflow: hidden;
 }
+
+
+/*  mulighed billeder   */
+.billedboks2 {
+  position: relative;
+  width: 33%;
+  float: left;
+  }
+
+ .image2 {
+ display: block;
+ width: 100%;
+ }
+    
+ .overlay2 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #0d8cc4;
+  }
+    
+  .billedboks2:hover .overlay {
+    opacity: 0.85;
+    }
+      
+  .text2 {
+    font-family: "Exo-2";
+    color: white;
+    font-size:5vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    }
