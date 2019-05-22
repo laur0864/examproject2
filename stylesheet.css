@@ -56,21 +56,22 @@ a:visited {
 
 .header {
   font-family: "Exo-2";
-  text-align: right;
+  text-align: left;
   font-size: 30px;
   word-spacing: 50px;
   width: auto;
-  margin-right: 150px;
+  margin-left: 150px;
   margin-top: 20px;
   height: 70px; 
 }
 
 .logo {
-  float: left;
-  align-content: left;
+  float: right;
+  align-content: center;
   margin-left: 80px;
   height: 50px;
   width: auto;
+  margin-top: -35px;
 }
 
 .videosegment {
@@ -563,4 +564,41 @@ a:hover
 #menuToggle input:checked ~ ul
 {
   transform: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.navibook{
+  font-family: "Exo-2";
+  text-align: left;
+  font-size: 30px;
+  width: auto;
+  margin-left: 150px;
+  margin-top: 20px;
+  height: 70px; 
+}
+
+.navipriser{
+  font-family: "Exo-2";
+  text-align: left;
+  font-size: 30px;
+  width: auto;
+  margin-left: 150px;
+  margin-top: -35px;
+  height: 70px; 
 }
