@@ -68,10 +68,10 @@ a:visited {
 .logo {
   float: right;
   align-content: center;
-  margin-left: 80px;
+  margin-right: 70px;
   height: 50px;
   width: auto;
-  margin-top: -35px;
+  margin-top: -70px;
 }
 
 .videosegment {
@@ -568,22 +568,17 @@ a:hover
   transform: none;
 }
 
-
-
-
-
-
-
-
-
 .navibook{
   font-family: "Exo-2";
   text-align: left;
   font-size: 30px;
   width: auto;
-  margin-left: 150px;
-  margin-top: 20px;
-  height: 70px; 
+  margin-left: 0px;
+  margin-top: 10px;
+  height: 70px;
+
+ 
+
 }
 
 .navipriser{
@@ -592,6 +587,14 @@ a:hover
   font-size: 30px;
   width: auto;
   margin-left: 150px;
-  margin-top: -35px;
-  height: 70px; 
+  margin-top: -70px;
+  height: 70px;
+
 }
+
+.wrapper {
+    max-width:800px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
