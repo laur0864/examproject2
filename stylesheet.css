@@ -380,11 +380,6 @@ input[type=submit]:hover {
 
 
 /*  mulighed billeder   */
-.billedboks2 {
-  position: relative;
-  width: 33%;
-  float: left;
-  }
 
  .image2 {
  display: block;
@@ -402,6 +397,23 @@ input[type=submit]:hover {
     transform: translate(-50%, -50%);
     text-align: center;
     }
+
+.billedboks2 {
+  position: relative;
+  width: 33%;
+  float: left;
+    height:auto;
+  }
+
+@media screen and (max-width: 700px) {
+    .billedboks2 {
+      position: relative;
+      width: 50%;
+      float: left;
+    height:auto;
+  }     
+  }
+
 
 
 
