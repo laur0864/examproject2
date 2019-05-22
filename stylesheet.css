@@ -51,7 +51,377 @@ a:visited {
 }
 
 /****************************************************************
-*                           bburgermenu                          *
+*                    FRONTPAGE LEJRSKOLE                        *
+****************************************************************/
+
+.header {
+  font-family: "Exo-2";
+  text-align: left;
+  font-size: 30px;
+  word-spacing: 50px;
+  width: auto;
+  margin-left: 150px;
+  margin-top: 20px;
+  height: 70px; 
+}
+
+.logo {
+  float: right;
+  align-content: center;
+  margin-left: 80px;
+  height: 50px;
+  width: auto;
+  margin-top: -35px;
+}
+
+.videosegment {
+color: #ffffff;
+cursor:pointer;
+background-color: #f7f7f7;
+text-align: center;
+border-width: 1px;
+position:relative;
+
+}
+
+.video {
+  margin-top: 10px;
+}
+
+
+.overskrift {
+  margin-top: 20px;
+  font-family:"Exo-2";
+  font-size: 48px;
+}
+
+.introtext {
+margin: 50px;
+width: 500px;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+font-size:20px
+
+}     
+
+.main {
+  font-family: "Lato Light";
+  text-align: center;
+  font-size: 16px;
+  
+}
+
+/* banner photos */
+
+.imgbanner {
+    height: 350px;
+}
+
+@media screen and (max-width: 600px) {
+    .imgbanner {
+        height: 250px
+    }
+}
+
+/* index billeder */
+.billedboks {
+  position: relative;
+  width: 50%;
+  float: left;
+  }
+
+ .image {
+ display: block;
+ width: 100%;
+ }
+    
+ .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #0d8cc4;
+  }
+    
+  .billedboks:hover .overlay {
+    opacity: 0.85;
+    }
+      
+  .text {
+    font-family: "Exo-2";
+    color: white;
+    font-size:5vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    }
+
+
+/****************************************************************
+*                            footer                             *
+****************************************************************/
+
+footer {
+  background-color:lightgray;
+  width: 100%;
+  margin-top:30px;
+  height: 120px;
+  clear: left;
+  }
+
+.p1 {
+  margin-top: 10px;
+  margin-left: 30px; 
+  font-family:"Exo-2";
+  color:skyblue;
+  font-size: 20px;
+  position:absolute;
+}
+
+.p2 {
+  margin-top: 40px;
+  margin-left: 30px; 
+  font-family: 'Exo-2 Semi Bold';
+  color: white;
+  font-size: 15px;
+  position:absolute;
+}
+
+.p3 {
+margin-top: 60px;
+  margin-left: 30px; 
+  font-family: 'Exo-2 Semi Bold';
+  color: white;
+  font-size: 15px;
+  position:absolute;
+}
+.p4 {
+  margin-top: 80px;
+  margin-left: 30px; 
+  font-family: 'Exo-2 Semi Bold';
+  color: white;
+  font-size: 15px;
+  position:absolute;
+}
+
+.q1 {
+  margin-top: 10px;
+  margin-left: 280px; 
+  font-family:"Exo-2";
+  color:skyblue;
+  font-size: 20px;
+  position:absolute;
+}
+.q2 {
+  margin-top: 40px;
+  margin-left: 280px; 
+  font-family: 'Exo-2 Semi Bold';
+  color: white;
+  font-size: 15px;
+  position:absolute;
+}
+
+.q3 {
+margin-top: 60px;
+  margin-left: 280px; 
+  font-family: 'Exo-2 Semi Bold';
+  color: white;
+  font-size: 15px;
+  position:absolute;
+}
+.q4 {
+  margin-top: 80px;
+  margin-left: 280px; 
+  font-family: 'Exo-2 Semi Bold';
+  color: white;
+  font-size: 15px;
+  position:absolute;
+}
+
+.r1 {
+  margin-top: 10px;
+  margin-left: 530px; 
+  font-family:"Exo-2";
+  color:skyblue;
+  font-size: 20px;
+  position:absolute;
+}
+.r2 {
+  margin-top: 40px;
+  margin-left: 530px; 
+  font-family: 'Exo-2 Semi Bold';
+  color: white;
+  font-size: 15px;
+  position:absolute;
+}
+
+.r3 {
+margin-top: 60px;
+  margin-left: 530px; 
+  font-family: 'Exo-2 Semi Bold';
+  color: white;
+  font-size: 15px;
+  position:absolute;
+}
+.r4 {
+  margin-top: 80px;
+  margin-left: 530px; 
+  font-family: 'Exo-2 Semi Bold';
+  color: white;
+  font-size: 15px;
+  position:absolute;
+}
+
+.s1 {
+  margin-top: 10px;
+  margin-left: 780px; 
+  font-family:"Exo-2";
+  color:skyblue;
+  font-size: 20px;
+  position:absolute;
+}
+.s2 {
+  margin-top: 40px;
+  margin-left: 780px; 
+  font-family: 'Exo-2 Semi Bold';
+  color: white;
+  font-size: 15px;
+  position:absolute;
+}
+
+.s3 {
+margin-top: 60px;
+  margin-left: 780px; 
+  font-family: 'Exo-2 Semi Bold';
+  color: white;
+  font-size: 15px;
+  position:absolute;
+}
+.s4 {
+  margin-top: 80px;
+  margin-left: 780px; 
+  font-family: 'Exo-2 Semi Bold';
+  color: white;
+  font-size: 15px;
+  position:absolute;
+}
+
+
+/****************************************************************
+*                   Booking formular                            *
+****************************************************************/
+
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color:lightblue;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color:skyblue;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 30px;
+  margin-top: 50px;
+}
+
+/* accordion styling */
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+
+
+/*  mulighed billeder   */
+
+ .image2 {
+ display: block;
+ width: 100%;
+ }
+    
+      
+  .text2 {
+    font-family: "Exo-2";
+    color: white;
+    font-size:3vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    }
+
+.billedboks2 {
+  position: relative;
+  width: 33%;
+  float: left;
+    height:auto;
+  }
+
+@media screen and (max-width: 700px) {
+    .billedboks2 {
+      position: relative;
+      width: 50%;
+      float: left;
+    height:auto;
+  }     
+  }
+
+
+
+
+
+
+/****************************************************************
+*                  bburgermenu                          *
 ****************************************************************/
 
 
@@ -193,441 +563,39 @@ a:hover
   transform: none;
 }
 
-/****************************************************************
-*                    FRONTPAGE LEJRSKOLE                        *
-****************************************************************/
 
-.header {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.navibook{
   font-family: "Exo-2";
-  text-align: right;
+  text-align: left;
   font-size: 30px;
-  word-spacing: 50px;
   width: auto;
-  margin-right: 150px;
+  margin-left: 150px;
   margin-top: 20px;
   height: 70px; 
 }
 
-.logo {
-  float: left;
-  align-content: left;
-  margin-left: 80px;
-  height: 50px;
+.navipriser{
+  font-family: "Exo-2";
+  text-align: left;
+  font-size: 30px;
   width: auto;
-}
-
-.videosegment {
-color: #ffffff;
-cursor:pointer;
-background-color: #f7f7f7;
-text-align: center;
-border-width: 1px;
-position:relative;
-
-}
-
-.video {
-  margin-top: 10px;
-}
-
-
-.overskrift {
-  margin-top: 20px;
-  font-family:"Exo-2";
-  font-size: 48px;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.introtext {
-margin: 50px;
-width: 500px;
-text-align: center;
-margin-left: auto;
-margin-right: auto;
-}     
-
-.main {
-  font-family: "Lato Light";
-  font-size: 16px;
-}
-
-/* banner photos */
-
-.imgbanner {
-    height: 350px;
-}
-
-@media screen and (max-width: 600px) {
-    .imgbanner {
-        height: 250px
-    }
-}
-
-/* index billeder */
-.billedboks {
-  position: relative;
-  width: 50%;
-  float: left;
-  }
-
- .image {
- display: block;
- width: 100%;
- }
-    
- .overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: #0d8cc4;
-  }
-    
-  .billedboks:hover .overlay {
-    opacity: 0.7;
-    }
-      
-  .text {
-    font-family: "Exo-2";
-    color: white;
-    font-size:5vw;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    }
-
-
-
-
-/****************************************************************
-*                   Booking formular                            *
-****************************************************************/
-
-input[type=text], select, textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
-}
-
-input[type=submit] {
-  background-color:lightblue;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-input[type=submit]:hover {
-  background-color:skyblue;
-}
-
-.container {
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 30px;
-  margin-top: 50px;
-}
-
-/* accordion styling */
-
-/* Style the buttons that are used to open and close the accordion panel */
-.accordion {
-  background-color: #eee;
-  color: #444;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  text-align: left;
-  border: none;
-  outline: none;
-  transition: 0.4s;
-}
-
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.active, .accordion:hover {
-  background-color: #ccc;
-}
-
-/* Style the accordion panel. Note: hidden by default */
-.panel {
-  padding: 0 18px;
-  background-color: white;
-  display: none;
-  overflow: hidden;
-}
-
-
-/*  mulighed billeder   */
-.billedboks2 {
-  position: relative;
-  width: 33%;
-  float: left;
-  }
-
- .image2 {
- display: block;
- width: 100%;
- }
-    
- .overlay2 {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: #0d8cc4;
-  }
-    
-  .billedboks2:hover .overlay {
-    opacity: 0.85;
-    }
-      
-  .text2 {
-    font-family: "Exo-2";
-    color: white;
-    font-size:5vw;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    }
-
-
-
-/****************************************************************
-*                           PRISER                              *
-****************************************************************/
-* {
-  box-sizing: border-box;
-}
-
-.introtextpriser {
-  margin: 50px;
-  max-width: 600px;
-  height: auto;
-  margin-top: 20px;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  }       
-
-.tilbudoverskrift {
-    margin: 20px;
-    font-family:"Exo-2 semi bold";
-    font-size:2.5vw;
-}
-
-.tilbud {
-  float: left;
-  line-height: 80%;
-  width: 50%;
-  margin-bottom: 20px; 
-  text-align: center;
-  position: relative;
-}
-
-.tabel {
-  font-family: "lato";
-  margin: 40px;
-  width: 75%;
-  height: auto;
-  text-align: left;
-  clear: both;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 60px;
-}
-
-    #pristabel {
-      font-family: "Exo-2 Semi Bold", Arial, Helvetica, sans-serif;
-      font-size: 20px;
-      border-collapse: collapse;
-      width: 100%;
-    }
-    
-    #pristabel th {
-      padding-top: 12px;
-      padding-bottom: 12px;
-      text-align: left;
-      background-color: #0d8cc4;
-      color: white;
-    }
-    
-    #total {
-      font-family: "Exo-2", Arial, Helvetica, sans-serif;
-      border-collapse: collapse;
-      font-size: 25px;
-      width: 100%;
-      text-decoration: underline;
-    }
-
-
-/****************************************************************
-*                            footer                             *
-****************************************************************/
-
-footer {
-  background-color: #F7F7F7;
-  width: 100%;
-  margin-top:30px;
-  height: 120px;
-  clear: left;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto; 
-  }
-
-.p1 {
-  margin-top: 10px;
-  margin-left: 30px; 
-  font-family:"Exo-2";
-  color:#0d8cc4;
-  font-size: 20px;
-  position:absolute;
-}
-
-.p2 {
-  margin-top: 40px;
-  margin-left: 30px; 
-  font-family: 'Exo-2 light';
-  color: #000000;
-  font-size: 15px;
-  position:absolute;
-}
-
-.p3 {
-margin-top: 60px;
-  margin-left: 30px; 
-  font-family: 'Exo-2 light';
-  color: #000000;
-  font-size: 15px;
-  position:absolute;
-}
-.p4 {
-  margin-top: 80px;
-  margin-left: 30px; 
-  font-family: 'Exo-2 light';
-  color: #000000;
-  font-size: 15px;
-  position:absolute;
-}
-
-.q1 {
-  margin-top: 10px;
-  margin-left: 280px; 
-  font-family:"Exo-2";
-  color:#0d8cc4;
-  font-size: 20px;
-  position:absolute;
-}
-.q2 {
-  margin-top: 40px;
-  margin-left: 280px; 
-  font-family: 'Exo-2 light';
-  color: #000000;
-  font-size: 15px;
-  position:absolute;
-}
-
-.q3 {
-margin-top: 60px;
-  margin-left: 280px; 
-  font-family: 'Exo-2 light';
-  color: #000000;
-  font-size: 15px;
-  position:absolute;
-}
-.q4 {
-  margin-top: 80px;
-  margin-left: 280px; 
-  font-family: 'Exo-2 light';
-  color: #000000;
-  font-size: 15px;
-  position:absolute;
-}
-
-.r1 {
-  margin-top: 10px;
-  margin-left: 530px; 
-  font-family:"Exo-2";
-  color:#0d8cc4;
-  font-size: 20px;
-  position:absolute;
-}
-.r2 {
-  margin-top: 40px;
-  margin-left: 530px; 
-  font-family: 'Exo-2 light';
-  color: #000000;
-  font-size: 15px;
-  position:absolute;
-}
-
-.r3 {
-margin-top: 60px;
-  margin-left: 530px; 
-  font-family: 'Exo-2 light';
-  color: #000000;
-  font-size: 15px;
-  position:absolute;
-}
-.r4 {
-  margin-top: 80px;
-  margin-left: 530px; 
-  font-family: 'Exo-2 light';
-  color: #000000;
-  font-size: 15px;
-  position:absolute;
-}
-
-.s1 {
-  margin-top: 10px;
-  margin-left: 780px; 
-  font-family:"Exo-2";
-  color:#0d8cc4;
-  font-size: 20px;
-  position:absolute;
-}
-.s2 {
-  margin-top: 40px;
-  margin-left: 780px; 
-  font-family: 'Exo-2 light';
-  color: #000000;
-  font-size: 15px;
-  position:absolute;
-}
-
-.s3 {
-margin-top: 60px;
-  margin-left: 780px; 
-  font-family: 'Exo-2 light';
-  color: #000000;
-  font-size: 15px;
-  position:absolute;
-}
-.s4 {
-  margin-top: 80px;
-  margin-left: 780px; 
-  font-family: 'Exo-2 light';
-  color: #000000;
-  font-size: 15px;
-  position:absolute;
+  margin-left: 150px;
+  margin-top: -35px;
+  height: 70px; 
 }
