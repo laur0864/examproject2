@@ -63,7 +63,7 @@
       <input type="text" id="telfon" name="telefon" placeholder="Skrive dit telefon nr...">
       <label for="Soveplader">Antal sovepladser</label>
       <input type="text" id="numb" name="antalsovepladser" placeholder="Skrive antal sovepladser..">   
-      <p id="demo"></p>
+      <p id="wrong"></p>
       <label for="pakker">Ønsker du et af vores pakke-tilbud</label>
       <select id="country" name="Tilvalg">
         <option value="3dages">Ja, jeg øsker den 3 dages ungdomslejr</option>
@@ -77,25 +77,6 @@
       <button type="button" class="button button2" onclick="myFunction()">Send forspørgsel</button>
     </form>
   </div>
-
-<script>
-  function myFunction() {
-    var x, text;
-  
-    // Get the value of the input field with id="numb"
-    x = document.getElementById("numb").value;
-  
-    // If x is Not a Number or less than one or greater than 10
-    if (isNaN(x) || x < 1 || x > 48) {
-      text = "Vi har desværre kun 48 soverpladser";
-    } else {
-      text = "";
-    }
-    document.getElementById("demo").innerHTML = text;
-  }
-  </script>
-
-
 
 </body>
 </html>

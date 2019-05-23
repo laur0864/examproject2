@@ -10,5 +10,5 @@ function myFunction() {
     } else {
       text = "";
     }
-    document.getElementById("demo").innerHTML = text;
+    document.getElementById("wrong").innerHTML = text;
   }
