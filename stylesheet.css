@@ -177,10 +177,9 @@ font-size:20px
 *                   Booking formular                            *
 ****************************************************************/
 
-
-
 input[type=text], select, textarea {
-  width: 100%;
+  font-family: "Exo-2 Semibold", Arial, Helvetica, sans-serif;
+  width: 50%;
   padding: 12px;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -203,12 +202,50 @@ input[type=submit]:hover {
   background-color:skyblue;
 }
 
-.container {
+form { 
+  margin: 0 auto; 
+  }
+ 
+  .button {
+    background-color: #4CAF50; /* Green */
+    font-family: 'Exo-2', Arial, Helvetica, sans-serif;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 5px 5px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+  }
+  
+  .button2 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #008CBA;
+  }
+  
+  .button2:hover {
+    background-color: #008CBA;
+    color: white;
+  }
+
+#demo {
+  font-family: "Exo-2";
+  color: red;
+}
+
+.bookingformular {
+  font-family: "Exo-2 Semi bold", Arial, Helvetica, sans-serif;
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 30px;
-  margin-top: 50px;
+  margin: auto;
+  max-width: 60%;
 }
+
 
 /* accordion styling */
 

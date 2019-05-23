@@ -12,8 +12,6 @@
   <div id="menuToggle">
 
     <input type="checkbox" />
-
-
     <span></span>
     <span></span>
     <span></span>
@@ -46,42 +44,40 @@
     
 <body>
 
-    <div class="hyttefoto">
-                <img src="Billeder/BookingCropped2.png" alt="hyttefoto" style="width:100%; height: 350px">
-          <main class="main">
-              <div class="overskrift">Booking</div>
-                      <div class="introtext"> Her har du muliged for at sende en forspørgsel, vi svare inden for en dag.</div>  
-           
-          </main>
-    </div>
-    <div class="container">
-  <form action="">
-    <label for="fname">Navn eller institution</label>
-    <input type="text" id="name" name="name" placeholder="Skriv dit navn eller instiltution..">
-
-    <label for="lname">Email</label>
-    <input type="text" id="email" name="email" placeholder="Skriv din Email..">
+  <div class="hyttefoto">
+  <img src="Billeder/BookingCropped2.png" alt="hyttefoto" style="width:100%; height: 350px">
+  <main class="main">
+   <div class="overskrift">Booking</div>
+   <div class="introtext"> Her har du muliged for at sende en forspørgsel, vi svare normalt inden for en dag.</div>  
+  </main></div>
+  
+  <div class="bookingformular">
+      <form action="">
+      <label for="Navn">Navn eller institution</label>
+      <input type="text" id="name" name="name" placeholder="Skriv dit navn eller institution..">
+  
+      <label for="Email">Email</label>
+      <input type="text" id="email" name="email" placeholder="Skriv din Email..">
+        
+      <label for="telefon">Telfon nr.</label>
+      <input type="text" id="telfon" name="telefon" placeholder="Skrive dit telefon nr...">
+         <p id="demo"></p>
+      <label for="Soveplader">Antal sovepladser</label>
+      <input type="text" id="numb" name="antalsovepladser" placeholder="Skrive antal sovepladser..">   
+        
+      <label for="pakker">Ønsker du et af vores pakke-tilbud</label>
+      <select id="country" name="Tilvalg">
+        <option value="3dages">Ja, jeg øsker den 3 dages ungdomslejr</option>
+        <option value="5dages">Ja, jeg ønsker den 5 dages lejr</option>
+        <option value="nej">Nej</option>
+      </select>
+  
+      <label for="kommentar">Andre kommentarer / ønsker?</label>
+      <textarea id="subject" name="kommentar" placeholder="kommentar.." style="height:200px"></textarea>
       
-    <label for="lname">Telfon nr.</label>
-    <input type="text" id="telfon" name="telfon" placeholder="Skrive dit tlefon nr...">
-       <p id="demo"></p>
-    <label for="numb">Antal sovepladser</label>
-    <input type="text" id="numb" name="antalsovepladser" placeholder="Skrive antal sovepladser..">   
-      
-    <label for="country">Ønsker du et af vores pakke-tilbud</label>
-    <select id="country" name="Tilvalg">
-      <option value="3dages">Ja, jeg øsker den 3 dages ungdomslejr</option>
-      <option value="5dages">Ja, jeg ønsker den 5 dages lejr</option>
-      <option value="nej">Nej</option>
-    </select>
-
-    <label for="subject">Andre kommentarer</label>
-    <textarea id="subject" name="kommentar" placeholder="kommentar.." style="height:200px"></textarea>
-
-    
-    <button type="button" onclick="myFunction()">Send forspørgsel</button>
-  </form>
-</div>
+      <button type="button" class="button button2" onclick="myFunction()">Send forspørgsel</button>
+    </form>
+  </div>
 
 <script>
   function myFunction() {
