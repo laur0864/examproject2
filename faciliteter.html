@@ -121,17 +121,17 @@ Centeret ligger i forlængelse af hal 2, og kan lejes sammen eller uden hal 2. R
 </main>
 
 <script>
-var acc = document.getElementsByClassName("accordion");
-var i;
+let acc = document.getElementsByClassName("accordion"); /* Her benytter vi dommen til at tilgå accordionen*/
+let i;
 
-for (i = 0; i < acc.length; i++) {
-  acc[i].addEventListener("click", function() {
+for (i = 0; i < acc.length; i++) {  /* Dette er en variable der går ind i et loop, dette er istedet for f.eks. at skrive en liste, så gentager den bare */
+  acc[i].addEventListener("click", function() { /* event der trigger function */
     this.classList.toggle("active");
-    var panel = this.nextElementSibling;
+    let panel = this.nextElementSibling; /* dette er så det der sker efter at eventet er sket, altså der er blevet klikket på panelet, og der åbner efter op for blokken der viser text så viser den dette*/
     if (panel.style.display === "block") {
       panel.style.display = "none";
-    } else {
-      panel.style.display = "block";
+    } else {  
+      panel.style.display = "block"; /* Her bliver der så beskrevet, hvis der er åbnet for blocken så skal der ved et klick på blocken gå tilbage til panelet */
     }
   });
 }
