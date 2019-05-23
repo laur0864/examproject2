@@ -112,6 +112,13 @@ font-size:20px
   
 }
 
+.main2 {
+  font-family: "Lato Light";
+  text-align: left;
+  font-size: 16px;
+  
+}
+
 /* banner photos */
 
 .imgbanner {
@@ -209,7 +216,7 @@ input[type=submit]:hover {
 
 /* accordion styling */
 
-/* Style the buttons that are used to open and close the accordion panel */
+/*  buttons that are used to open and close the accordion panel */
 .accordion {
   background-color: #eee;
   color: #444;
@@ -222,7 +229,7 @@ input[type=submit]:hover {
   transition: 0.4s;
 }
 
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+/* the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active, .accordion:hover {
   background-color: #0D8CC4;
 }
@@ -233,6 +240,10 @@ input[type=submit]:hover {
   background-color: white;
   display: none;
   overflow: hidden;
+}
+
+.acctext {
+    font-size: 22px;
 }
 
 
