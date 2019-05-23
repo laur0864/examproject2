@@ -115,7 +115,7 @@ font-size:20px
 .main2 {
   font-family: "Lato Light";
   text-align: left;
-  font-size: 16px;
+  font-size: 20px;
   
 }
 
@@ -172,11 +172,7 @@ font-size:20px
 
 
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->> ad4cd0d1f994326f9006ef618b4e201fa5f98d29
+
 /****************************************************************
 *                   Booking formular                            *
 ****************************************************************/
@@ -223,10 +219,11 @@ input[type=submit]:hover {
   cursor: pointer;
   padding: 18px;
   width: 100%;
-  text-align: left;
+  text-align: center;
   border: none;
   outline: none;
   transition: 0.4s;
+  font-size: 25px;
 }
 
 /* the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
