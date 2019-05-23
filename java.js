@@ -1,3 +1,5 @@
+/*    Validation     */
+
 function myFunction() {
     var x, text;
   
@@ -9,8 +11,7 @@ function myFunction() {
       text = "";
     }
 
-function capture(){
-    var video = document.getElementById('video');
+    document.getElementById("wrong").innerHTML = text;
 }
 
 
@@ -30,10 +31,6 @@ for (i = 0; i < acc.length; i++) {
     }
   });
 }
-    
-    
-    /* Nyt afsnit */
-=======
-    document.getElementById("wrong").innerHTML = text;
-  }
+
+/* Nyt afsnit */
 
