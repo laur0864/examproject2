@@ -637,7 +637,7 @@ input[type=submit]:hover {
 ****************************************************************/
 
 footer {
-  background-color:lightgray;
+  background-color:#F7F7F7;
   width: 100%;
   margin-top:30px;
   height: 120px;
@@ -648,7 +648,7 @@ footer {
   margin-top: 10px;
   margin-left: 30px; 
   font-family:"Exo-2";
-  color:skyblue;
+  color:#0d8cc4;
   font-size: 20px;
   position:absolute;
 }
@@ -656,8 +656,8 @@ footer {
 .p2 {
   margin-top: 40px;
   margin-left: 30px; 
-  font-family: 'Exo-2 Semi Bold';
-  color: white;
+  font-family: 'lato';
+  color: #000000;
   font-size: 15px;
   position:absolute;
 }
@@ -665,16 +665,16 @@ footer {
 .p3 {
 margin-top: 60px;
   margin-left: 30px; 
-  font-family: 'Exo-2 Semi Bold';
-  color: white;
+  font-family: 'lato';
+  color: #000000;
   font-size: 15px;
   position:absolute;
 }
 .p4 {
   margin-top: 80px;
   margin-left: 30px; 
-  font-family: 'Exo-2 Semi Bold';
-  color: white;
+  font-family: 'lato';
+  color: #000000;
   font-size: 15px;
   position:absolute;
 }
@@ -683,15 +683,15 @@ margin-top: 60px;
   margin-top: 10px;
   margin-left: 280px; 
   font-family:"Exo-2";
-  color:skyblue;
+  color:#0d8cc4;
   font-size: 20px;
   position:absolute;
 }
 .q2 {
   margin-top: 40px;
   margin-left: 280px; 
-  font-family: 'Exo-2 Semi Bold';
-  color: white;
+  font-family: 'lato';
+  color: #000000;
   font-size: 15px;
   position:absolute;
 }
@@ -699,16 +699,16 @@ margin-top: 60px;
 .q3 {
 margin-top: 60px;
   margin-left: 280px; 
-  font-family: 'Exo-2 Semi Bold';
-  color: white;
+  font-family: 'lato';
+  color: #000000;
   font-size: 15px;
   position:absolute;
 }
 .q4 {
   margin-top: 80px;
   margin-left: 280px; 
-  font-family: 'Exo-2 Semi Bold';
-  color: white;
+  font-family: 'lato';
+  color: #000000;
   font-size: 15px;
   position:absolute;
 }
@@ -717,15 +717,15 @@ margin-top: 60px;
   margin-top: 10px;
   margin-left: 530px; 
   font-family:"Exo-2";
-  color:skyblue;
+  color:#0d8cc4;
   font-size: 20px;
   position:absolute;
 }
 .r2 {
   margin-top: 40px;
   margin-left: 530px; 
-  font-family: 'Exo-2 Semi Bold';
-  color: white;
+  font-family: 'lato';
+  color: #000000;
   font-size: 15px;
   position:absolute;
 }
@@ -733,16 +733,16 @@ margin-top: 60px;
 .r3 {
 margin-top: 60px;
   margin-left: 530px; 
-  font-family: 'Exo-2 Semi Bold';
-  color: white;
+  font-family: 'lato';
+  color: #000000;
   font-size: 15px;
   position:absolute;
 }
 .r4 {
   margin-top: 80px;
   margin-left: 530px; 
-  font-family: 'Exo-2 Semi Bold';
-  color: white;
+  font-family: 'lato';
+  color: #000000;
   font-size: 15px;
   position:absolute;
 }
@@ -751,15 +751,15 @@ margin-top: 60px;
   margin-top: 10px;
   margin-left: 780px; 
   font-family:"Exo-2";
-  color:skyblue;
+  color:#0d8cc4;
   font-size: 20px;
   position:absolute;
 }
 .s2 {
   margin-top: 40px;
   margin-left: 780px; 
-  font-family: 'Exo-2 Semi Bold';
-  color: white;
+  font-family: 'lato';
+  color: #000000;
   font-size: 15px;
   position:absolute;
 }
@@ -767,16 +767,16 @@ margin-top: 60px;
 .s3 {
 margin-top: 60px;
   margin-left: 780px; 
-  font-family: 'Exo-2 Semi Bold';
-  color: white;
+  font-family: 'lato';
+  color: #000000;
   font-size: 15px;
   position:absolute;
 }
 .s4 {
   margin-top: 80px;
   margin-left: 780px; 
-  font-family: 'Exo-2 Semi Bold';
-  color: white;
+  font-family: 'lato';
+  color: #000000;
   font-size: 15px;
   position:absolute;
 }
