@@ -40,7 +40,7 @@ a:link {
 }
 
 a:hover {
-  color: #8e8f91;
+  color: #5d5e61;
   font-weight: 500;
   text-decoration: underline;
 
@@ -451,7 +451,7 @@ a
 
 a:hover
 {
-  color:white;
+  color:rgb(143, 143, 143);
 }
 
 #menuToggle
