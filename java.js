@@ -8,8 +8,6 @@ function myFunction() {
     } else {
       text = "";
     }
-<<<<<<< HEAD
-});
 
 function capture(){
     var video = document.getElementById('video');
@@ -32,7 +30,10 @@ for (i = 0; i < acc.length; i++) {
     }
   });
 }
+    
+    
+    /* Nyt afsnit */
 =======
     document.getElementById("wrong").innerHTML = text;
   }
->>>>>>> 0a9ddbfa6a0bf6c2cf96411fe15da54c6f9e9d33
+
