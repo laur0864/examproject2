@@ -1,13 +1,14 @@
-$('.video').parent().click(function () {
-    if($(this).children(".video").get(0).paused){
-        $(this).children(".video").get(0).play();
-        $(this).children(".playpause").fadeOut();
-    }else{
-       $(this).children(".video").get(0).pause();
-        $(this).children(".playpause").fadeIn();
+function myFunction() {
+    var x, text;
+  
+    // Get the value of the input field with id="numb"
+    x = document.getElementById("numb").value;
+  
+    // If x is Not a Number or less than one or greater than 10
+    if (isNaN(x) || x < 1 || x > 48) {
+      text = "Vi har desværre kun 48 soverpladser";
+    } else {
+      text = "";
     }
-});
-
-function capture(){
-    var video = document.getElementById('video');
-}
+    document.getElementById("demo").innerHTML = text;
+  }
