@@ -554,7 +554,7 @@ a:hover
 
 
 .wrapper {
-    max-width:800px;
+    max-width:80%;
     margin: 0 auto;
     overflow: hidden;
 }
