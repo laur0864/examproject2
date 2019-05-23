@@ -85,8 +85,21 @@
     </form>
   </div>
 </body>
-</html>
+<script>
+  function myFunction() {
+    var x, text;
+  
+    x = document.getElementById("numb").value;
+  
+    if (isNaN(x) || x < 1 || x > 48) {
+      text = "Vi har desværre kun 48 soverpladser";
+    } else {
+      text = "";
+    }
 
+    document.getElementById("wrong").innerHTML = text;
+}
+</script>
 
 <footer>               
     <div class="footerbox">
@@ -113,6 +126,6 @@
           <p>Tlf. 70 22 16 53 - tast 1+2</p>
           <p><a href="mailto:info@sportspark" style="text-decoration: underline; color: blue;">info@sportspark</a></p>
       </div>
-  </footer>
-</body>
+
+      </footer>
 </html>
