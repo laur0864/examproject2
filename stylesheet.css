@@ -504,9 +504,7 @@ a:hover
   
   background-color: lightgray;
   list-style-type: none;
-  -webkit-font-smoothing: antialiased;
-  /* to stop flickering of text in safari */
-  
+  -webkit-font-smoothing: antialiased;  
   transform-origin: 0% 0%;
   transform: translate(-100%, 0);
   
@@ -520,9 +518,6 @@ a:hover
   font-family: 'Exo-2 Light';
 }
 
-/*
- * And let's slide it in from the left
- */
 #menuToggle input:checked ~ ul
 {
   transform: none;
@@ -536,9 +531,6 @@ a:hover
   margin-left: 0px;
   margin-top: 10px;
   height: 70px;
-
- 
-
 }
 
 .navipriser{
@@ -558,9 +550,6 @@ a:hover
     margin: 0 auto;
     overflow: hidden;
 }
-
-
-
 
 
 input[type=text], select, textarea {
