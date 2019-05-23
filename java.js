@@ -1,11 +1,14 @@
-$('.video').parent().click(function () {
-    if($(this).children(".video").get(0).paused){
-        $(this).children(".video").get(0).play();
-        $(this).children(".playpause").fadeOut();
-    }else{
-       $(this).children(".video").get(0).pause();
-        $(this).children(".playpause").fadeIn();
+function myFunction() {
+    var x, text;
+  
+    x = document.getElementById("numb").value;
+  
+    if (isNaN(x) || x < 1 || x > 48) {
+      text = "Vi har desværre kun 48 soverpladser";
+    } else {
+      text = "";
     }
+<<<<<<< HEAD
 });
 
 function capture(){
@@ -29,3 +32,7 @@ for (i = 0; i < acc.length; i++) {
     }
   });
 }
+=======
+    document.getElementById("wrong").innerHTML = text;
+  }
+>>>>>>> 0a9ddbfa6a0bf6c2cf96411fe15da54c6f9e9d33
