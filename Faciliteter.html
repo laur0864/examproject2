@@ -52,8 +52,8 @@
   
     </header>
 
-     <img src="Billeder/FaciliteterCrop2.png" class="imgbanner" alt="faciliteter, lejrskole" width="100%">
-          <main class="main">
+    <img src="Billeder/FaciliteterCrop2.png" alt="slideombilleder" name="slide" id="hytte" style="width:100%; height: 350px">
+    <main class="main">
               <div class="overskrift">Vores Faciliteter</div>
               
 <p class=introtext>Hos blaavandshuk sportspark tilbyder vi adskillige faciliteter. Her giver vi en liste over vores aktiviteter:<br></p>
@@ -128,6 +128,7 @@ Centeret ligger i forlængelse af hal 2, og kan lejes sammen eller uden hal 2. R
 </main>
 
 <script>
+
 let acc = document.getElementsByClassName("accordion"); 
 let i;
 
@@ -142,6 +143,25 @@ for (i = 0; i < acc.length; i++) {
     }
   });
 }
+
+{   let i = 0;     let images = [];
+    let time = 6000;
+      
+    images[0] = "Billeder/FaciliteterCrop2.png";
+    images[1] = "Billeder/FaciliteterCrop3.png";    
+    images[2] = "Billeder/FaciliteterCrop4.png";    
+     
+    function changeImg(){
+        document.slide.src = images[i];
+        if(i < images.length - 1){
+            i++;
+        } else {
+            i = 0;
+        }    
+      setTimeout("changeImg()", time);
+    }
+    window.onload = changeImg;  }
+  
 </script>
 
              
