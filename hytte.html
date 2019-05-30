@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<html lang="DK">
-    <head>
+<html lang="da-DK">
+      <head>
                <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
          <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
          <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -35,9 +35,7 @@
     </ul>
   </div>
 </nav>
-     
-      <header>
-      
+ <header>   
     <div class=wrapper>
         <div class="navibook">
          <a href="booking.html">Booking</a>
@@ -46,47 +44,64 @@
         <div class="navipriser">
        <a href="priser.html">Priser </a>
         </div>
-    </div>   
-            
+    </div>       
     <a href="index.html"><img class="logo" src="spb-logo.svg" alt="Sportspark Blåvandshuk Logo"></a>
-  
-    </header>
+  </header>
 
-
-    <div class="hyttefoto">
-                <img src="Billeder/HytterCropped.png" alt="Vores unikke og dejlige Hytter" style="width:100%; height: 350px">
-          <main class="main">
-              <div class="overskrift">Hytter</div>
-                <div class="introtext">       Hos blaavandshuk sportspark tilbyder vi hytter til udlejning. Der er 7 hytter som samlet tilbyde 42 senge pladser.  Ved hytterne er der også muglighed for at kunne bruge køkkenfaciliteter, samt en plads nær skoven, hvor der er mulighed for at kunne grille. Der er 2 typer af hytter, 6 personers,med toilet, samt 8 personers, uden toilet, der er mulighed for at benytte hallens toilet faciliteter som ligger blot 50m væk.  </div>
-             
-          </main>
-    </div>            <footer>               
+      <div class="hyttefoto">
+      <img src="Billeder/HytterCropped.png" alt="slideombilleder" name="slide" id="hytte" style="width:100%; height: 350px">
+     </div> 
+    <main class="main">
+     <div class="overskrift">Hytter</div>
+     <div class="introtext">Hos blaavandshuk sportspark tilbyder vi hytter til udlejning. Der er 7 hytter som samlet tilbyde 42 senge pladser.  Ved hytterne er der også muglighed for at kunne bruge køkkenfaciliteter, samt en plads nær skoven, hvor der er mulighed for at kunne grille. Der er 2 typer af hytter, 6 personers,med toilet, samt 8 personers, uden toilet, der er mulighed for at benytte hallens toilet faciliteter som ligger blot 50m væk.  </div>
+    </main>
+           
+       <footer>               
         <div class="footerbox">
             <h2 class="footerh1">Sportscenter (HQ)</h2>
             <p>Strandvejen 2, 6840 Oksbøl</p>
             <p>Tlf. 70 22 16 53 - tast 1</p>
             <p><a href="mailto:info@sportspark" style="text-decoration: underline; color: blue;">info@sportspark</a></p>
-          </div>
-          <div class="footerbox">
+        </div>
+        <div class="footerbox">
               <h2 class="footerh1">Golfcenter i Ho</h2>
             <p>Søndertoften 29, 6857 Blåvand</p>
             <p>Tlf. 70 22 16 53 - tast 2</p>
             <p><a href="mailto:info@sportspark" style="text-decoration: underline; color: blue;">info@sportspark</a></p>
-          </div>
-          <div class="footerbox">
+       </div>
+       <div class="footerbox">
               <h2 class="footerh1">FitnessCenter Blaavand</h2>
             <p>FitnessCenter Blaavand</p>
             <p>Tlf. 70 22 16 53 - tast 1+2</p>
             <p><a href="mailto:info@sportspark" style="text-decoration: underline; color: blue;">info@sportspark</a></p>
-          </div>
-          <div class="footerbox">
+       </div>
+       <div class="footerbox">
               <h2 class="footerh1">FitnessCenter Vejerso</h2>
               <p>Vejers Havvej 58b, 6853 Vejers</p>
               <p>Tlf. 70 22 16 53 - tast 1+2</p>
               <p><a href="mailto:info@sportspark" style="text-decoration: underline; color: blue;">info@sportspark</a></p>
-          </div>
-      </footer>
-             
-             </footer>
+       </div>
+     </footer>
 </body>
+
+<script>
+    let i = 0;     let images = [];
+    let time = 6000;
+      
+    images[0] = "Billeder/HytterCropped.png";
+    images[1] = "Billeder/HytterCropped2.png";    
+    images[2] = "Billeder/HytterCropped4.png";    
+     
+    function changeImg(){
+        document.slide.src = images[i];
+        if(i < images.length - 1){
+            i++;
+        } else {
+            i = 0;
+        }    
+      setTimeout("changeImg()", time);
+    }
+    window.onload = changeImg;   
+    </script>
+
 </html>

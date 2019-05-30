@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="DK">
+<html lang="da-DK">
     <head>
          <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
          <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -52,7 +52,7 @@
 <body>
 
   <div class="hyttefoto">
-  <img src="Billeder/BookingCropped2.png" alt="hyttefoto" style="width:100%; height: 350px">
+  <img src="Billeder/BookingCropped2.png" alt="slideombilleder" name="slide" id="hytte" style="width:100%; height: 350px">
   <main class="main">
    <div class="overskrift">Booking</div>
    <div class="introtext"> Her har du muliged for at sende en forspørgsel, vi svare normalt inden for en dag.</div>  
@@ -73,7 +73,7 @@
       <p id="wrong"></p>
       <label for="pakker">Ønsker du et af vores pakke-tilbud</label>
       <select id="country" name="Tilvalg">
-        <option value="3dages">Ja, jeg øsker den 3 dages lejr</option>
+        <option value="3dages">Ja, jeg ønsker den 3 dages lejr</option>
         <option value="5dages">Ja, jeg ønsker den 5 dages lejr</option>
         <option value="nej">Nej</option>
       </select>
@@ -99,6 +99,25 @@
 
     document.getElementById("wrong").innerHTML = text;
 }
+
+    let i = 0;     let images = [];
+    let time = 6000;
+      
+    images[0] = "Billeder/BookingCropped2.png";
+    images[1] = "Billeder/CroppedReception.png";    
+    images[2] = "Billeder/BookingCropped.png";    
+     
+    function changeImg(){
+        document.slide.src = images[i];
+        if(i < images.length - 1){
+            i++;
+        } else {
+            i = 0;
+        }    
+      setTimeout("changeImg()", time);
+    }
+    window.onload = changeImg;   
+
 </script>
 
 <footer>               

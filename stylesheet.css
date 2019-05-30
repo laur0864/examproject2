@@ -89,6 +89,10 @@ position:relative;
 }
 
 
+#hytte {
+  transition: opacity 4s ease-in;
+}
+
 .overskrift {
   margin-top: 20px;
   font-family:"Exo-2";
